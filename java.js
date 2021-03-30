@@ -4,7 +4,7 @@
 var express=require('express');
 var app=express();
 var mysql = require('mysql');
-
+//Mysql connection
 var con = mysql.createConnection({
   host: "localhost",
   user: "root",
